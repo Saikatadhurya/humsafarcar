@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO("mysql:host=localhost;dbname=humsafar", "root", "");
+$connect = new PDO("mysql:host=sql12.freemysqlhosting.net;dbname=sql12272057", "sql12272057", "eQ4xcSdFMI");
 
 date_default_timezone_set('Asia/Kolkata');
 
