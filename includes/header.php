@@ -43,7 +43,7 @@
 									  <?php if (isset($_SESSION['did'])) { ?><a href='carpost.php' title='carpost'>Post Journey</a> <?php }?>
 									</li>
 									<li>
-									  <?php if (isset($_SESSION['email'])) { ?><a href='logout.php' title='Logout'>Logout</a> <?php } else { ?> <a href='login.php#login' title='Login'>Login</a><?php }?>
+									  <?php if (isset($_SESSION['email'])) { ?><a href='logout.php' title='Logout'>Logout</a> <?php } else { ?> <a href='login.php' title='Login'>Login</a><?php }?>
 									</li>
 									
                                 </ul> <!-- /.menu-list -->
