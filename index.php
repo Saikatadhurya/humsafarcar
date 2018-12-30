@@ -141,7 +141,7 @@ $user_id=$_SESSION['uid'];
 								?>
 								
 							<div class="col-md-8">
-							<a href="chat/index.php?did=<?php echo $user_id?>"<button type="button"  class="btn btn-lg btn-danger" style="margin:10px">Chat with Your Riders</button></a>
+							<a href="chat/index.php?did=<?php echo $user_id?>"<button type="button"  class="btn btn-lg btn-danger" style="margin:10px">Chat with Your Driver</button></a>
 							</div>
 							<?php
 							}
