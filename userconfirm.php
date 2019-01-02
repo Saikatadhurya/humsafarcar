@@ -154,7 +154,7 @@ $row = mysqli_fetch_assoc($query);
 							  <h4 class="card-text" style="color:#FFFFFF;">From : <?php echo $fromp; ?> </h3> <hr>     
 							  <h4 class="card-text" style="color:#FFFFFF;">To : <?php echo $top; ?></h3><hr>
 							
-							<h4 class="card-text" style="color:#FFFFFF;">Rate per km: <?php echo $perkm; ?></h3> <hr>
+							<h4 class="card-text" style="color:#FFFFFF;">Rate per km: Rs. <?php echo $perkm; ?>/km</h3> <hr>
 							<h4 class="card-text" style="color:#FFFFFF;">Base Fair : Rs. 20</h3><hr>
 							
 							
