@@ -115,7 +115,7 @@ while($row = mysqli_fetch_assoc($query))
 							<h5 class="card-title" style="color:#FFFFFF;"><?php echo $carname; ?></h5><hr>
 							<h6 class="card-title" style="color:#FFFFFF;"><?php echo $carnumber; ?></h6><hr>
 							<p class="card-text">Journey Time : <?php echo $put; ?></p>
-							<p class="card-text">Rate per km : <?php echo $perkm; ?></p>
+							<p class="card-text">Rate per km : Rs. <?php echo $perkm; ?></p>
 							<a href="userconfirm.php?did=<?php echo $did?>&carnumber=<?php echo $carnumber?>" class="btn btn-primary">Book Now</a>
 						  </div>
 						</div>
