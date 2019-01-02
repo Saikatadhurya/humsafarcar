@@ -27,7 +27,7 @@ $user_id=$_SESSION['user_id'];
 
 	
 	<!--Google Map API -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5YcOYeWk0etw76B6HGoR_QvmNAjYsUrs&libraries=places"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo8BYxQlKLiQbemkCdn-q5JdVXXS_wJP4&libraries=places"></script>
 	
 	
     <!-- Titles
