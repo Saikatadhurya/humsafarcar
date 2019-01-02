@@ -809,7 +809,7 @@ $user_id=$_SESSION['uid'];
         });
     </script>
 	
-	   <script>
+	  <script>
             function init() {
                 var input = document.getElementById('locationTextField');
                 var autocomplete = new google.maps.places.Autocomplete(input);
@@ -825,6 +825,7 @@ $user_id=$_SESSION['uid'];
 
             google.maps.event.addDomListener(window, 'load', init);
         </script>
+	
     <!-- SLIDER REVOLUTION 5.4 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
     <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
