@@ -142,7 +142,7 @@ $user_id=$_SESSION['user_id'];
                                     <label for="locationTextField">From</label>
                                     <div class="input">
                                         <i class="fa fa-map-marker"></i>
-                                        <input type="text" name="fromp" placeholder="Your location" class="pick-location form-controller" id="locationTextField" required>
+                                        <input type="text" name="fromp" placeholder="Your location" class="pick-location form-controller" id="locationTextField">
                                     </div><!--/.input-->
                                 </div><!--/.col-md-4-->
 								<div class="col-md-1 "> <span> </span> </div>
@@ -150,7 +150,7 @@ $user_id=$_SESSION['user_id'];
                                     <label for="locationTextField1">To</label>
                                     <div class="input">
                                         <i class="fa fa-map-marker"></i>
-                                        <input type="text" name="top" placeholder="Your location" class="drop-location form-controller" id="locationTextField1" required>
+                                        <input type="text" name="top" placeholder="Your location" class="drop-location form-controller" id="locationTextField1">
                                     </div><!--/.input-->
                                 </div><!--/.col-md-4-->
 
@@ -158,7 +158,7 @@ $user_id=$_SESSION['user_id'];
                                     <label>Picking up date</label>
                                     <div class="input">
                                         <i class="fa fa-calendar"></i>
-                                        <input type="text" name="pud" class="date-start date-selector form-controller" placeholder="dd/mm/yy" required>
+                                        <input type="text" name="pud" class="date-start date-selector form-controller" placeholder="dd/mm/yy" >
                                     </div><!--/.input-->
                                 </div><!--/.col-md-4-->
 								<div class="col-md-1"> <span> </span> </div>
@@ -166,16 +166,36 @@ $user_id=$_SESSION['user_id'];
                                     <label>Picking up Time</label>
                                     <div class="input">
                                         <i class="fa fa-clock-o"></i>
-                                        <input type="text" name="put" class="time-selector form-controller" placeholder="00:00" required>
+                                        <input type="text" name="put" class="time-selector form-controller" placeholder="00:00" >
                                       </div><!--/.input-->
 									 </div> 
-									 
-                           <div class="col-md-4">
-                                    <label>Base Fare</label>
-                                    <div class="input">
-                                        <i class="fa fa-money"></i>
-                                        <input type="number" name="basefare" class="budget-fields form-controller" placeholder="Start form in Rs">
-                                    </div><!--/.input-->
+							<div class="col-md-8"><label><b>Choose Price</b></label></div>		 
+                           <div class="col-md-9">
+                                   
+									<div class="col-md-3">
+                                   <div class="form-check">
+								  <input class="form-check-input" type="radio" name="perkm" id="exampleRadios1" value="3" checked>
+								  <label class="form-check-label" for="exampleRadios1">
+									Rs 3/km
+								  </label>
+								</div>
+								</div>
+								<div class="col-md-3">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="perkm" id="exampleRadios2" value="5">
+								  <label class="form-check-label" for="exampleRadios2">
+									Rs 5/km
+								  </label>
+								</div>
+								</div>
+								<div class="col-md-3">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="perkm" id="exampleRadios3" value="7">
+								  <label class="form-check-label" for="exampleRadios3">
+									Rs 7/km
+								  </label>
+								</div>
+								</div>
                                 </div><!--/.col-md-4--> 
                                 
                                 <div class="clearfix"></div><!-- /.clearfix -->
@@ -586,9 +606,9 @@ $fromp = mysqli_real_escape_string($db, $_POST['fromp']);
 $top = mysqli_real_escape_string($db, $_POST['top']);
 $pud = mysqli_real_escape_string($db, $_POST['pud']);
 $put = mysqli_real_escape_string($db, $_POST['put']);
-$basefare = mysqli_real_escape_string($db, $_POST['basefare']);
+$perkm = mysqli_real_escape_string($db, $_POST['perkm']);
 
-$query = "INSERT INTO car (did,carname,carnumber,fromp,top,pud,put,basefare) VALUES('$did','$carname','$carnumber','$fromp','$top','$pud','$put','$basefare')";
+$query = "INSERT INTO car (did,carname,carnumber,fromp,top,pud,put,perkm) VALUES('$did','$carname','$carnumber','$fromp','$top','$pud','$put','$perkm')";
 if(mysqli_query($db,$query))
 {
 	echo ("<script>alert(' Car is Successfully Added')</script>");
