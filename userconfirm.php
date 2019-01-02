@@ -128,7 +128,7 @@ $row = mysqli_fetch_assoc($query);
 	$carnumber=mysqli_real_escape_string($db, $row['carnumber']);
 	$fromp=mysqli_real_escape_string($db, $row['fromp']);
 	$top=mysqli_real_escape_string($db, $row['top']);
-	$basefare=mysqli_real_escape_string($db, $row['basefare']);
+	$perkm=mysqli_real_escape_string($db, $row['perkm']);
 	?>
 	 <div class="row">
 	 <div class="col-md-4">
@@ -154,8 +154,8 @@ $row = mysqli_fetch_assoc($query);
 							  <h4 class="card-text" style="color:#FFFFFF;">From : <?php echo $fromp; ?> </h3> <hr>     
 							  <h4 class="card-text" style="color:#FFFFFF;">To : <?php echo $top; ?></h3><hr>
 							
-							<h4 class="card-text" style="color:#FFFFFF;">Base Fair: <?php echo $basefare; ?></h3> <hr>
-							<h4 class="card-text" style="color:#FFFFFF;">Total Fair:</h3><hr>
+							<h4 class="card-text" style="color:#FFFFFF;">Rate per km: <?php echo $perkm; ?></h3> <hr>
+							<h4 class="card-text" style="color:#FFFFFF;">Base Fair : Rs. 20</h3><hr>
 							
 							
 						 
