@@ -142,7 +142,7 @@ $user_id=$_SESSION['user_id'];
                                     <label for="locationTextField">From</label>
                                     <div class="input">
                                         <i class="fa fa-map-marker"></i>
-                                        <input type="text" name="fromp" placeholder="Your location" class="pick-location form-controller" id="locationTextField">
+                                        <input type="text" name="fromp" placeholder="Your location" class="pick-location form-controller" id="locationTextField" required>
                                     </div><!--/.input-->
                                 </div><!--/.col-md-4-->
 								<div class="col-md-1 "> <span> </span> </div>
@@ -150,7 +150,7 @@ $user_id=$_SESSION['user_id'];
                                     <label for="locationTextField1">To</label>
                                     <div class="input">
                                         <i class="fa fa-map-marker"></i>
-                                        <input type="text" name="top" placeholder="Your location" class="drop-location form-controller" id="locationTextField1">
+                                        <input type="text" name="top" placeholder="Your location" class="drop-location form-controller" id="locationTextField1" required>
                                     </div><!--/.input-->
                                 </div><!--/.col-md-4-->
 
@@ -158,7 +158,7 @@ $user_id=$_SESSION['user_id'];
                                     <label>Picking up date</label>
                                     <div class="input">
                                         <i class="fa fa-calendar"></i>
-                                        <input type="text" name="pud" class="date-start date-selector form-controller" placeholder="dd/mm/yy" >
+                                        <input type="text" name="pud" class="date-start date-selector form-controller" placeholder="dd/mm/yy" required>
                                     </div><!--/.input-->
                                 </div><!--/.col-md-4-->
 								<div class="col-md-1"> <span> </span> </div>
@@ -166,7 +166,7 @@ $user_id=$_SESSION['user_id'];
                                     <label>Picking up Time</label>
                                     <div class="input">
                                         <i class="fa fa-clock-o"></i>
-                                        <input type="text" name="put" class="time-selector form-controller" placeholder="00:00" >
+                                        <input type="text" name="put" class="time-selector form-controller" placeholder="00:00" required>
                                       </div><!--/.input-->
 									 </div> 
 									 
