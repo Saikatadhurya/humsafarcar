@@ -104,7 +104,7 @@ while($row = mysqli_fetch_assoc($query))
 	$carname=mysqli_real_escape_string($db, $row['carname']);
 	$carnumber=mysqli_real_escape_string($db, $row['carnumber']);
 	$put=mysqli_real_escape_string($db, $row['put']);
-	$basefare=mysqli_real_escape_string($db, $row['basefare']);
+	$perkm=mysqli_real_escape_string($db, $row['perkm']);
 	$did=mysqli_real_escape_string($db, $row['did']);
 	?>
 			     <div class="col-md-4">
@@ -115,7 +115,7 @@ while($row = mysqli_fetch_assoc($query))
 							<h5 class="card-title" style="color:#FFFFFF;"><?php echo $carname; ?></h5><hr>
 							<h6 class="card-title" style="color:#FFFFFF;"><?php echo $carnumber; ?></h6><hr>
 							<p class="card-text">Journey Time : <?php echo $put; ?></p>
-							<p class="card-text">Base Fare : <?php echo $basefare; ?></p>
+							<p class="card-text">Rate per km : <?php echo $perkm; ?></p>
 							<a href="userconfirm.php?did=<?php echo $did?>&carnumber=<?php echo $carnumber?>" class="btn btn-primary">Book Now</a>
 						  </div>
 						</div>
