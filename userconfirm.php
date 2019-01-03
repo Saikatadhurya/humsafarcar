@@ -108,7 +108,7 @@ if (!isset($_SESSION['email'])) {
             <div class="row">
                 <div class="col-md-4">
                     <div class="check-content">
-                        <h4 class="top-subtitle">Your Journey Confirmed</h4>
+                        <h4 class="top-subtitle">You are Just one Step Ahead</h4>
                         <h2 class="title yellow-color">!!!Congrats!!!</h2>
                         <h3 class="subtitle">Your Journey Detail</h3>
                     </div><!-- /.check-content -->
