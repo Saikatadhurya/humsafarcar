@@ -22,7 +22,7 @@ $user_id=$_SESSION['uid'];
     <meta name="author" content="">
 
 	<!--Google Map API -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5YYyjn8rmZcMIynbbNf3dWY1kBikUdUk&libraries=places"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeyRabHc9Yy2u6uXT096CoTjpPgAovCdw&libraries=places"></script>
 	
     <!-- Titles
     ================================================== -->
