@@ -110,7 +110,7 @@ $user_id=$_SESSION['user_id'];
                     <div class="check-content">
                         <h4 class="top-subtitle">Give Details here</h4>
                         <h2 class="title yellow-color">Post your Journey</h2>
-                        <h3 class="subtitle">Find Best Rental Car</h3>
+                        <h3 class="subtitle">Post Your Rental Car</h3>
                     </div><!-- /.check-content -->
                 </div><!-- col-md-4 -->
 
