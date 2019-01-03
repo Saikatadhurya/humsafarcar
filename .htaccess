@@ -1,6 +1,6 @@
 
 RewriteEngine on
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
 # Do not edit. This next line is to support the cPanel php wrapper (php_cli).
@@ -8,8 +8,5 @@ RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 # php -- END cPanel-generated handler, do not edit
 
 
-RewriteCond %{HTTPS} off
-RewriteCond %{REQUEST_URI} !/admin/
-RewriteCond %{REQUEST_URI} !/downloader/
+
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-Options -Indexes
