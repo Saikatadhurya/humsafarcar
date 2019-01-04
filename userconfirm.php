@@ -57,6 +57,7 @@ if (!isset($_SESSION['email'])) {
     <!-- RS5.4 Layers and Navigation Styles -->
     <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+	<script src="https://js.instamojo.com/v1/button.js"></script>
     
 </head>
 
@@ -136,7 +137,8 @@ $row = mysqli_fetch_assoc($query);
 	</div>
 	
 	<div class="col-md-4">
-	<button type="button" class="btn btn-lg btn-success">Confirm Ride</button>
+	<a href="https://www.instamojo.com/@humsafar98/lc2fccb2a35344118bb779a09327cb1a5/" rel="im-checkout" data-behaviour="remote" data-style="light" >
+<button type="button" class="btn btn-lg btn-success">Confirm Ride</button></a>
 	</div>
 	<div class="col-md-4">
 	<!-- Button trigger modal -->
@@ -154,7 +156,26 @@ $row = mysqli_fetch_assoc($query);
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      
+      <div class="modal-body">
+        <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Problem with Driver
+  </label>
+</div>
+     <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Problem with Rider
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+  <label class="form-check-label" for="exampleRadios2">
+    Problem with Car
+  </label>
+</div>
+      </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary btn-success" data-dismiss="modal">CANCEL</button>
         <button type="button" class="btn btn-primary btn-danger">ASK FOR HELP</button>
