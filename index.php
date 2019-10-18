@@ -605,47 +605,7 @@ $user_id=$_SESSION['uid'];
      
     <div class="vehicle-multi-border yellow-black"></div><!-- /.vehicle-multi-border -->
     
-    <!-- ======driver block======= --> 
-       <div class="driver-block pd-90" id="our team">
-        <div class="container">
-            <div class="row tb default-margin-bottom yellow-theme">
-                <div class="col-md-9 block-title-area tb-cell">
-                    <div class="heading-content style-one border">
-                        <h3 class="subtitle">Developer,Designer,Debugger </h3>
-                        <h2 class="title"><span style="color:#ffcc00">Our Team</span></h2>
-                    </div><!-- /.heading-content-one -->
-                </div><!-- /.col-md-10 -->
-
-                <div class="col-md-3 hidden-xs block-navigation-area tb-cell">
-                    <div class="pull-right">                    
-                        <div class="item-navigation">
-                            <a href="#" class="previous-item">
-                                <i class="fa fa-angle-left"></i> 
-                            </a>
-
-                            <a href="#" class="next-item">
-                                <i class="fa fa-angle-right"></i> 
-                            </a>
-                        </div><!-- /.item-navigation -->
-
-                        <div class="view-all-item">
-                            <a href="#" class="view-all-btn">View all</a>
-                        </div><!-- /.view-all-item -->
-                    </div><!-- /.pull-right -->
-                </div><!-- /.col-md-2 -->
-            </div><!-- /.row --> 
-
-            
-            <!-- block-navigation-area -->
-            <div class="block-navigation-area visible-xs-block">
-                <div class="view-all-item clearfix">
-                    <a href="#" class="view-all-btn">View all</a>
-                </div><!-- /.view-all-item -->
-            </div><!-- /.block-navigation-area -->
-        </div><!-- /.container  -->
-    </div><!-- /.driver-area -->
-    <div class="vehicle-multi-border yellow-black" </div> <!-- /.vehicle-multi-border -->
-	<div class="vehicle-multi-border yellow-black"></div>
+  
 	<br><br>
 	
     <!-- ====== App block ====== --> 
